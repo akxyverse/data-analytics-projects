@@ -78,37 +78,66 @@ A ready template for organizing your own portfolio by tool and by industry.
 
 ---
 
-## 🌟 Live Projects
+## 🌟 Product Portfolio
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="100%" valign="top">
 
-**⚡ [ThunderCast: Storm Forecasting Platform](<./End-to-End Projects/ThunderCast>)**
-Real-time thunderstorm prediction using Facebook Prophet time-series forecasting, live weather API, Streamlit dashboard.
-`Python` `Prophet` `Streamlit` &nbsp;[🔗 Live Demo](https://akxyverse-thundercast-smart-storm-predictio-dashboardapp-xqeckf.streamlit.app/)
+### ⚡ ThunderCast — Storm Forecasting Platform
+Real-time thunderstorm prediction using Facebook Prophet time-series forecasting.
 
-</td>
-<td width="50%" valign="top">
+| | |
+|---|---|
+| **Problem** | Predict thunderstorm risk hours ahead from live weather data |
+| **Scale** | 116,000+ hourly weather records |
+| **Stack** | `Python` `Prophet` `Pandas` `Streamlit` `Plotly` `Supabase` |
+| **Deliverable** | Automated data pipeline + live interactive dashboard |
+| **Status** | 🟢 Live |
 
-**📦 [Supply Chain Analytics Dashboard](<./Domain-wise Projects/Logistics/Supply Chain Analytics Dashboard>)**
-43K+ delivery records, 30+ visualizations, KPI metrics on delivery performance and agent efficiency.
-`Python` `Streamlit` &nbsp;[🔗 Live Demo](https://supply-chain-analytics-system-5tlaustxwavffqjplsgutw.streamlit.app/)
+📂 [`End-to-End Projects/ThunderCast`](<./End-to-End Projects/ThunderCast>) &nbsp;·&nbsp; [🔗 Live Demo](https://akxyverse-thundercast-smart-storm-predictio-dashboardapp-xqeckf.streamlit.app/)
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" colspan="2">
+<td width="100%" valign="top">
 
-**🎮 [Esports & Gaming Revenue Analytics](<./Domain-wise Projects/Others/Esports Gaming Revenue Analytics>)**
-16 years of gaming/esports revenue across 25 countries — 17.7% CAGR, interactive Tableau dashboard.
-`Python` `Tableau` `EDA` &nbsp;[🔗 Live Dashboard](https://public.tableau.com/views/GamingEsportsSalesAnalyticsDasboard/GamingEsportsRevenueAnalyticsDashboard20102025?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+### 📦 Supply Chain Analytics Dashboard
+Delivery performance and agent efficiency analytics across a real logistics dataset.
+
+| | |
+|---|---|
+| **Problem** | Where are delivery delays coming from, and which agents/conditions drive them |
+| **Scale** | 43,000+ delivery records, 30+ visualizations |
+| **Stack** | `Python` `Pandas` `Matplotlib` `Seaborn` `Streamlit` |
+| **Deliverable** | Interactive KPI dashboard with real-time filtering |
+| **Status** | 🟢 Live |
+
+📂 [`Domain-wise Projects/Logistics/Supply Chain Analytics Dashboard`](<./Domain-wise Projects/Logistics/Supply Chain Analytics Dashboard>) &nbsp;·&nbsp; [🔗 Live Demo](https://supply-chain-analytics-system-5tlaustxwavffqjplsgutw.streamlit.app/)
+
+</td>
+</tr>
+<tr>
+<td width="100%" valign="top">
+
+### 🎮 Esports & Gaming Revenue Analytics
+16 years of global gaming and esports revenue trends, analyzed and visualized.
+
+| | |
+|---|---|
+| **Problem** | How is gaming/esports revenue distributed and growing across regions |
+| **Scale** | 400+ records across 25 countries, 2010–2025 |
+| **Stack** | `Python` `Pandas` `Tableau` `Julius AI` |
+| **Deliverable** | ETL pipeline + interactive Tableau dashboard (8 charts) |
+| **Status** | 🟢 Live |
+
+📂 [`Domain-wise Projects/Others/Esports Gaming Revenue Analytics`](<./Domain-wise Projects/Others/Esports Gaming Revenue Analytics>) &nbsp;·&nbsp; [🔗 Live Dashboard](https://public.tableau.com/views/GamingEsportsSalesAnalyticsDasboard/GamingEsportsRevenueAnalyticsDashboard20102025?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 </td>
 </tr>
 </table>
 
-> The full source code for every project above lives directly in this repository — see where each one is categorized below.
+> The full source code for every project above lives directly in this repository. *(Dashboard screenshots aren't embedded — I don't have a screenshot-capture tool available to generate real ones, and won't use stock/placeholder images in their place. The live demo links above show the real thing.)*
 
 ## 🗂 Project Categories
 
