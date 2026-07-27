@@ -1,30 +1,76 @@
-﻿<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DATA ANALYTICS banner">
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Data Analytics Projects banner">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="55%" stop-color="#0b1a33"/>
-      <stop offset="100%" stop-color="#15803d"/>
+      <stop offset="0%" stop-color="#07160d"/>
+      <stop offset="45%" stop-color="#0d2e1a"/>
+      <stop offset="100%" stop-color="#124a26"/>
     </linearGradient>
+    <radialGradient id="glow" cx="82%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#22c55e"/>
-      <stop offset="100%" stop-color="#15803d"/>
+      <stop offset="100%" stop-color="#86efac"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#15803d"/>
+      <stop offset="100%" stop-color="#bbf7d0"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <g fill="#22c55e" opacity="0.12">
-    <circle cx="60" cy="40" r="2.5"/><circle cx="100" cy="40" r="2.5"/><circle cx="140" cy="40" r="2.5"/>
-    <circle cx="60" cy="70" r="2.5"/><circle cx="100" cy="70" r="2.5"/><circle cx="140" cy="70" r="2.5"/>
-    <circle cx="1060" cy="240" r="2.5"/><circle cx="1100" cy="240" r="2.5"/><circle cx="1140" cy="240" r="2.5"/>
-    <circle cx="1060" cy="270" r="2.5"/><circle cx="1100" cy="270" r="2.5"/><circle cx="1140" cy="270" r="2.5"/>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+
+  <g stroke="#22c55e" stroke-width="1" opacity="0.35">
+    <line x1="880" y1="50" x2="960" y2="30"/>
+    <line x1="960" y1="30" x2="1040" y2="70"/>
+    <line x1="960" y1="30" x2="1000" y2="110"/>
+    <line x1="1040" y1="70" x2="1110" y2="45"/>
+    <line x1="1000" y1="110" x2="1080" y2="130"/>
   </g>
-  <g transform="translate(70,150)" opacity="0.9">
-    <rect x="0"  y="30" width="14" height="60" rx="2" fill="#22c55e"/>
-    <rect x="20" y="10" width="14" height="80" rx="2" fill="#15803d"/>
-    <rect x="40" y="45" width="14" height="45" rx="2" fill="#22c55e"/>
-    <rect x="60" y="0"  width="14" height="90" rx="2" fill="#15803d"/>
+  <g fill="#86efac" opacity="0.6">
+    <circle cx="880" cy="50" r="4"/>
+    <circle cx="960" cy="30" r="5"/>
+    <circle cx="1040" cy="70" r="4"/>
+    <circle cx="1000" cy="110" r="4"/>
+    <circle cx="1110" cy="45" r="3.5"/>
+    <circle cx="1080" cy="130" r="3.5"/>
   </g>
-  <text x="150" y="140" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#f8fafc">DATA ANALYTICS</text>
-  <text x="150" y="182" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="3" fill="url(#accent)">PROJECTS</text>
-  <text x="150" y="216" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#94a3b8">Tool-wise - Domain-wise - End-to-End - Business Problems - Showcase</text>
-  <text x="1130" y="270" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="14" fill="#64748b">github.com/akxyverse</text>
+
+  <g fill="#22c55e" opacity="0.10">
+    <circle cx="60" cy="40" r="2.2"/><circle cx="100" cy="40" r="2.2"/><circle cx="140" cy="40" r="2.2"/>
+    <circle cx="60" cy="70" r="2.2"/><circle cx="100" cy="70" r="2.2"/><circle cx="140" cy="70" r="2.2"/>
+  </g>
+
+  <text x="1030" y="270" font-family="Consolas, Menlo, monospace" font-size="64" fill="#22c55e" opacity="0.10">&lt;/&gt;</text>
+
+  <polyline points="70,240 160,215 250,230 340,180 430,195 520,150 610,165"
+    fill="none" stroke="#bbf7d0" stroke-width="2.5" opacity="0.55"/>
+  <g fill="#bbf7d0" opacity="0.75">
+    <circle cx="70" cy="240" r="3"/><circle cx="160" cy="215" r="3"/><circle cx="250" cy="230" r="3"/>
+    <circle cx="340" cy="180" r="3"/><circle cx="430" cy="195" r="3"/><circle cx="520" cy="150" r="3"/><circle cx="610" cy="165" r="3.5"/>
+  </g>
+
+  <g transform="translate(70,150)">
+    <rect x="0"  y="45" width="13" height="45" rx="2" fill="url(#barGrad)"/>
+    <rect x="19" y="25" width="13" height="65" rx="2" fill="url(#barGrad)"/>
+    <rect x="38" y="55" width="13" height="35" rx="2" fill="url(#barGrad)"/>
+    <rect x="57" y="10" width="13" height="80" rx="2" fill="url(#barGrad)"/>
+  </g>
+
+  <text x="150" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#f8fafc">
+    DATA ANALYTICS PROJECTS
+  </text>
+  <rect x="150" y="164" width="150" height="4" rx="2" fill="url(#accent)"/>
+  <text x="150" y="200" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#bbf7d0">
+    Tool-wise &#8226; Domain-wise &#8226; End-to-End &#8226; Showcase
+  </text>
+  <text x="150" y="232" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#86efac">
+    The applied track of the Akxyverse Data Analytics ecosystem
+  </text>
+
+  <text x="1130" y="295" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="14" fill="#5a8a6a">
+    github.com/akxyverse
+  </text>
 </svg>
