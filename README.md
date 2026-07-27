@@ -84,14 +84,14 @@ A ready template for organizing your own portfolio by tool and by industry.
 <tr>
 <td width="50%" valign="top">
 
-**⚡ [ThunderCast: Storm Forecasting Platform](https://github.com/akxyverse/ThunderCast-Storm-Forecasting-Platform)**
+**⚡ [ThunderCast: Storm Forecasting Platform](<./End-to-End Projects/ThunderCast>)**
 Real-time thunderstorm prediction using Facebook Prophet time-series forecasting, live weather API, Streamlit dashboard.
 `Python` `Prophet` `Streamlit` &nbsp;[🔗 Live Demo](https://akxyverse-thundercast-smart-storm-predictio-dashboardapp-xqeckf.streamlit.app/)
 
 </td>
 <td width="50%" valign="top">
 
-**📦 [Supply Chain Analytics Dashboard](https://github.com/akxyverse/Supply-chain-analytics-Dashboard)**
+**📦 [Supply Chain Analytics Dashboard](<./Domain-wise Projects/Logistics/Supply Chain Analytics Dashboard>)**
 43K+ delivery records, 30+ visualizations, KPI metrics on delivery performance and agent efficiency.
 `Python` `Streamlit` &nbsp;[🔗 Live Demo](https://supply-chain-analytics-system-5tlaustxwavffqjplsgutw.streamlit.app/)
 
@@ -100,7 +100,7 @@ Real-time thunderstorm prediction using Facebook Prophet time-series forecasting
 <tr>
 <td width="50%" valign="top" colspan="2">
 
-**🎮 [Esports & Gaming Revenue Analytics](https://github.com/akxyverse/Esports-Gaming-Revenue-Analytics)**
+**🎮 [Esports & Gaming Revenue Analytics](<./Domain-wise Projects/Others/Esports Gaming Revenue Analytics>)**
 16 years of gaming/esports revenue across 25 countries — 17.7% CAGR, interactive Tableau dashboard.
 `Python` `Tableau` `EDA` &nbsp;[🔗 Live Dashboard](https://public.tableau.com/views/GamingEsportsSalesAnalyticsDasboard/GamingEsportsRevenueAnalyticsDashboard20102025?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
@@ -108,7 +108,7 @@ Real-time thunderstorm prediction using Facebook Prophet time-series forecasting
 </tr>
 </table>
 
-> These are references to standalone repositories — the code lives at the links above, not duplicated here. See where each one is categorized below.
+> The full source code for every project above lives directly in this repository — see where each one is categorized below.
 
 ## 🗂 Project Categories
 
@@ -182,7 +182,7 @@ Reusable starting structure for new projects — consistent README, folder layou
 
 ## 🟢 Status
 
-Structure is in place; 3 projects currently referenced, more shipping over time. Datasets used by these projects live in the separate [`Datasets`](https://github.com/akxyverse/datasets) repository — referenced, not duplicated.
+3 projects fully hosted here, more shipping over time. Datasets used by these projects live in the separate [`Datasets`](https://github.com/akxyverse/datasets) repository — referenced, not duplicated.
 
 ## ➡️ Recommended Next Repository
 

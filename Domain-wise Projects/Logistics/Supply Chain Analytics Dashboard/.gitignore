@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IDEs
+.idea/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+
+# Cache
+*.cache
+.pytest_cache/
+
+# Data (optional - uncomment to exclude data files)
+# data/raw/*.csv
+# data/processed/*.csv

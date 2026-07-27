@@ -13,50 +13,34 @@
       <stop offset="0%" stop-color="#22c55e"/>
       <stop offset="100%" stop-color="#86efac"/>
     </linearGradient>
-    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#15803d"/>
-      <stop offset="100%" stop-color="#bbf7d0"/>
-    </linearGradient>
   </defs>
 
   <rect width="1200" height="320" fill="url(#bg)"/>
   <rect width="1200" height="320" fill="url(#glow)"/>
 
-  <g stroke="#22c55e" stroke-width="1" opacity="0.35">
-    <line x1="880" y1="50" x2="960" y2="30"/>
-    <line x1="960" y1="30" x2="1040" y2="70"/>
-    <line x1="960" y1="30" x2="1000" y2="110"/>
-    <line x1="1040" y1="70" x2="1110" y2="45"/>
-    <line x1="1000" y1="110" x2="1080" y2="130"/>
-  </g>
-  <g fill="#86efac" opacity="0.6">
-    <circle cx="880" cy="50" r="4"/>
-    <circle cx="960" cy="30" r="5"/>
-    <circle cx="1040" cy="70" r="4"/>
-    <circle cx="1000" cy="110" r="4"/>
-    <circle cx="1110" cy="45" r="3.5"/>
-    <circle cx="1080" cy="130" r="3.5"/>
-  </g>
-
-  <g fill="#22c55e" opacity="0.10">
+  <g fill="#22c55e" opacity="0.08">
     <circle cx="60" cy="40" r="2.2"/><circle cx="100" cy="40" r="2.2"/><circle cx="140" cy="40" r="2.2"/>
     <circle cx="60" cy="70" r="2.2"/><circle cx="100" cy="70" r="2.2"/><circle cx="140" cy="70" r="2.2"/>
   </g>
 
-  <text x="1030" y="270" font-family="Consolas, Menlo, monospace" font-size="64" fill="#22c55e" opacity="0.10">&lt;/&gt;</text>
-
-  <polyline points="70,240 160,215 250,230 340,180 430,195 520,150 610,165"
-    fill="none" stroke="#bbf7d0" stroke-width="2.5" opacity="0.55"/>
-  <g fill="#bbf7d0" opacity="0.75">
-    <circle cx="70" cy="240" r="3"/><circle cx="160" cy="215" r="3"/><circle cx="250" cy="230" r="3"/>
-    <circle cx="340" cy="180" r="3"/><circle cx="430" cy="195" r="3"/><circle cx="520" cy="150" r="3"/><circle cx="610" cy="165" r="3.5"/>
-  </g>
-
-  <g transform="translate(70,150)">
-    <rect x="0"  y="45" width="13" height="45" rx="2" fill="url(#barGrad)"/>
-    <rect x="19" y="25" width="13" height="65" rx="2" fill="url(#barGrad)"/>
-    <rect x="38" y="55" width="13" height="35" rx="2" fill="url(#barGrad)"/>
-    <rect x="57" y="10" width="13" height="80" rx="2" fill="url(#barGrad)"/>
+  <!-- dashboard tile cluster: 4 mini widgets -->
+  <g transform="translate(860,55)">
+    <!-- widget 1: bar chart tile -->
+    <rect x="0" y="0" width="100" height="75" rx="8" fill="#0d3320" stroke="#22c55e" stroke-width="1.5"/>
+    <rect x="14" y="45" width="10" height="20" fill="#4ade80"/>
+    <rect x="30" y="30" width="10" height="35" fill="#4ade80"/>
+    <rect x="46" y="18" width="10" height="47" fill="#86efac"/>
+    <rect x="62" y="38" width="10" height="27" fill="#4ade80"/>
+    <!-- widget 2: line chart tile -->
+    <rect x="112" y="0" width="100" height="75" rx="8" fill="#0d3320" stroke="#4ade80" stroke-width="1.5"/>
+    <polyline points="124,55 140,40 156,48 172,25 188,35 200,20" fill="none" stroke="#86efac" stroke-width="2.5"/>
+    <!-- widget 3: donut tile -->
+    <rect x="0" y="87" width="100" height="75" rx="8" fill="#0d3320" stroke="#4ade80" stroke-width="1.5"/>
+    <circle cx="50" cy="124" r="24" fill="none" stroke="#15803d" stroke-width="10"/>
+    <circle cx="50" cy="124" r="24" fill="none" stroke="#86efac" stroke-width="10" stroke-dasharray="80 150" stroke-linecap="round"/>
+    <!-- widget 4: code bracket tile -->
+    <rect x="112" y="87" width="100" height="75" rx="8" fill="#0d3320" stroke="#22c55e" stroke-width="1.5"/>
+    <text x="162" y="138" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="34" fill="#86efac">&lt;/&gt;</text>
   </g>
 
   <text x="150" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#f8fafc">
@@ -67,7 +51,7 @@
     Tool-wise &#8226; Domain-wise &#8226; End-to-End &#8226; Showcase
   </text>
   <text x="150" y="232" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#86efac">
-    The applied track of the Akxyverse Data Analytics ecosystem
+    Where theory turns into shipped, working dashboards
   </text>
 
   <text x="1130" y="295" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="14" fill="#5a8a6a">
