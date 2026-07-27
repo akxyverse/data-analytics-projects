@@ -12,7 +12,7 @@ A comprehensive data analytics system for analyzing supply chain delivery perfor
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-<sub>📍 Part of [Data Analytics Projects](../../README.md) → [Domain-wise Projects](../README.md) → Logistics</sub>
+<sub>📍 Part of [Data Analytics Projects](../../../README.md) → [Domain-wise Projects](../../README.md) → [Logistics](../README.md)</sub>
 
 ---
 

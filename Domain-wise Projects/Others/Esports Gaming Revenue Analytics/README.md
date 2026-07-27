@@ -9,7 +9,7 @@
 
 > A comprehensive data analytics project analyzing global gaming and esports revenue trends from 2010 to 2025, uncovering market dynamics, regional performance, and growth patterns using Python, Julius AI, and Tableau.
 
-<sub>📍 Part of [Data Analytics Projects](../../README.md) → [Domain-wise Projects](../README.md) → Others</sub>
+<sub>📍 Part of [Data Analytics Projects](../../../README.md) → [Domain-wise Projects](../../README.md) → Others</sub>
 
 ---
 
