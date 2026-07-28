@@ -38,7 +38,7 @@ fig1 = px.line(weather_df.sort_values('timestamp'),
                labels={'temperature': 'Temperature (°C)', 'timestamp': 'Date & Time'},
                color_discrete_sequence=['#FF6B6B'])
 fig1.update_layout(hovermode='x unified', height=500)
-fig1.write_html('D:/Project-02-ThunderCast Smart Storm Prediction Engine/data/visualizations/temperature_trend.html')
+fig1.write_html('D:/Project-02-ThunderCast Smart Storm Prediction Engine/data/visualizations/temperature_trend.html', include_plotlyjs='cdn')
 print("✅ Saved: temperature_trend.html")
 
 # 3. MULTI-PARAMETER CHART
@@ -60,7 +60,7 @@ fig2.add_trace(go.Scatter(x=weather_sorted['timestamp'], y=weather_sorted['wind_
                           name='Wind Speed', line=dict(color='#FFA07A')), row=2, col=2)
 
 fig2.update_layout(height=700, title_text="Weather Parameters Dashboard", showlegend=False)
-fig2.write_html('D:/Project-02-ThunderCast Smart Storm Prediction Engine/data/visualizations/weather_dashboard.html')
+fig2.write_html('D:/Project-02-ThunderCast Smart Storm Prediction Engine/data/visualizations/weather_dashboard.html', include_plotlyjs='cdn')
 print("✅ Saved: weather_dashboard.html")
 
 # 4. THUNDERSTORM PREDICTIONS
@@ -93,7 +93,7 @@ fig3.update_layout(
     height=500
 )
 
-fig3.write_html('D:/Project-02-ThunderCast Smart Storm Prediction Engine/data/visualizations/thunderstorm_forecast.html')
+fig3.write_html('D:/Project-02-ThunderCast Smart Storm Prediction Engine/data/visualizations/thunderstorm_forecast.html', include_plotlyjs='cdn')
 print("✅ Saved: thunderstorm_forecast.html")
 
 # 5. CURRENT CONDITIONS GAUGE
@@ -123,7 +123,7 @@ fig4.add_trace(go.Indicator(
 ))
 
 fig4.update_layout(height=400)
-fig4.write_html('D:/Project-02-ThunderCast Smart Storm Prediction Engine/data/visualizations/humidity_gauge.html')
+fig4.write_html('D:/Project-02-ThunderCast Smart Storm Prediction Engine/data/visualizations/humidity_gauge.html', include_plotlyjs='cdn')
 print("✅ Saved: humidity_gauge.html")
 
 # 6. EXPORT DATA FOR TABLEAU
